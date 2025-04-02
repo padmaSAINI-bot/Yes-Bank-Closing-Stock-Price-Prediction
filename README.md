@@ -1,30 +1,47 @@
-# Yes Bank Closing Stock Price Prediction
+# **Yes Bank Closing Stock Price Prediction**
 
-This repository contains a project aimed at predicting the closing stock prices of Yes Bank using various machine learning techniques, specifically focusing on regression models.
+## **Project Type**
+- Machine Learning
+- Regression Analysis
 
-## Project Overview
+## **Contribution**
+- Individual Project
 
-In this project, we explore and analyze a dataset related to Yes Bank's closing stock prices. Using machine learning techniques, particularly regression, we aim to predict the closing stock prices. This project demonstrates the complete machine learning workflow, from data processing and exploratory data analysis (EDA) to regression model selection and evaluation.
+## **Introduction**
+This project focuses on predicting the closing stock price of Yes Bank using Machine Learning techniques, specifically Regression models. The project demonstrates the complete machine learning workflow, including data processing, exploratory data analysis (EDA), regression model selection, and evaluation.
 
-## Project Structure
+## **Project Outline**
+1. **Data Loading and Preprocessing**  
+   - Loading the dataset and performing necessary preprocessing steps.
 
-The project is structured as follows:
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualizing relationships and distributions within the data to identify patterns and insights.
 
-1. **Data Loading and Preprocessing**:
-    - Loading the dataset and performing preprocessing tasks such as handling missing values and outliers, and scaling the data.
+3. **Regression Modeling**  
+   - Applying various regression models to find the best fit for stock price prediction.
 
-2. **Exploratory Data Analysis (EDA)**:
-    - Visualizing relationships and distributions within the data to gain insights.
+4. **Model Tuning and Evaluation**  
+   - Optimizing hyperparameters to improve model performance.
 
-3. **Regression**:
-    - Applying the best-fit regression model to the data.
+## **Technologies & Tools Used**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-4. **Model Tuning**:
-    - Fine-tuning the model to improve its accuracy and performance.
+## **Results & Insights**
+- Identified key factors influencing the closing stock price.
+- Applied regression models to achieve accurate stock price predictions.
+- Evaluated model performance based on key metrics like RMSE and R-squared
 
-## Installation
+## **Future Enhancements**
+- Incorporating deep learning models (LSTMs) for time-series forecasting.
+- Expanding the dataset to include additional stock market indicators.
+- Enhancing data visualization with interactive dashboards.
 
-To run the notebook and reproduce the results, you need to install the following dependencies:
+## **Author**
+Padma Saini
 
-```bash
-pip install numpy pandas matplotlib scikit-learn keras tensorflow
